@@ -4,7 +4,7 @@
 In two languages (because I am russian)
 
 -------First option-------
-You have create a project in VS Code using the LEGO® MINDSTORMS® EV3 MicroPython extension. After creation, you will have the .gitignore, main, and .vscode files. The .vscode folder is used in the Visual Studio Code editor to store settings, debug configurations (launch.json), tasks (tasks.json), and recommended extensions for a specific project. The code from this repository is intended specifically for the main.py file.
+You have to create a project in VS Code using the LEGO® MINDSTORMS® EV3 MicroPython extension. After creation, you will have the .gitignore, main, and .vscode files. The .vscode folder is used in the Visual Studio Code editor to store settings, debug configurations (launch.json), tasks (tasks.json), and recommended extensions for a specific project. The code from this repository is intended specifically for the main.py file.
 
 -------Second option-------
 If you don't want to install or can't install the LEGO® MINDSTORMS® EV3 MicroPython extension for VS Code, but you have an EV3 robot and an EV3Dev image already installed on your microSD, you can create a folder on your desktop (required) and open it in VS Code or another IDE. Create an empty .vscode folder there, a .gitignore file with the following values:
