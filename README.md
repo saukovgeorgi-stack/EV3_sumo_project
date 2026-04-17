@@ -27,3 +27,7 @@ __pycache__/
 *.pyc
 .venv/
 и файл main.py с кодом из моего репозитория.
+
+!!!The program may not work correctly or efficiently, depending on your robot's design. You can find a sketch of my robot in the file sumo_robot.png. If you encounter any problems or have any questions, please contact me at my official email: saukov.georgi@gmail.com
+
+!!!Программа может работать некорректно или неэффективно, всё зависит от конструкции вашего робота, эскиз моего робота вы можете найти в файле sumo_robot.png. Если у вас возникнут не поладки или вопросы можете обратиться ко мне по моей официальной почте: saukov.georgi@gmai.com.
