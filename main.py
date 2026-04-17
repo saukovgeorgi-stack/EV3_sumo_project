@@ -51,8 +51,12 @@ while True:
             first_encounter = False
 
         #атака
-        motor_l.run(MAX_POWER)
-        motor_r.run(MAX_POWER)
+        if dist_f < 200:
+            motor_l.dc(100)
+            motor_r.dc(100)
+        else:
+            motor_l.run(MAX_POWER)
+            motor_r.run(MAX_POWER)
 
     #2 противник слева
     elif dist_l < DETECT_DIST_SIDE:
