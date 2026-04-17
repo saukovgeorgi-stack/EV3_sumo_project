@@ -21,7 +21,7 @@ DETECT_DIST_F = 700     #70 см
 DETECT_DIST_SIDE = 450  #45 см
 DOVOROT_MOTOR_DEG = 100 
 
-# Флаги состояния
+# флаги состояния
 first_encounter = True
 last_turn_dir = 0  # 1 крутились вправо, -1 крутились влево, 0 стоим ровно
 
@@ -36,13 +36,13 @@ while True:
             motor_l.hold()
             motor_r.hold()
             wait(50)
-            # Если нас несло вправо, доворачиваем чуть влево, и наоборот
+            # если нас несло вправо, доворачиваем чуть влево, и наоборот
             if last_turn_dir == 1:
-                # Доворот влево
+                # доворот влево
                 motor_l.run_angle(1300, DOVOROT_MOTOR_DEG, wait=False)
                 motor_r.run_angle(1300, -DOVOROT_MOTOR_DEG, wait=True)
             elif last_turn_dir == -1:
-                # Доворот вправо
+                # доворот вправо
                 motor_l.run_angle(1300, -DOVOROT_MOTOR_DEG, wait=False)
                 motor_r.run_angle(1300, DOVOROT_MOTOR_DEG, wait=True)
             
